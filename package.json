@@ -38,7 +38,7 @@
   "devDependencies": {
     "@commitlint/cli": "21.2.1",
     "@commitlint/config-conventional": "21.2.0",
-    "browserify": "16.5.2",
+    "browserify": "17.0.1",
     "gulp": "5.0.1",
     "gulp-header": "2.0.12",
     "gulp-insert": "0.5.0",
