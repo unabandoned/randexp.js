@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "drange": "^2.0.1",
-    "ret": "^0.3.2"
+    "ret": "^0.5.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.6.1",
