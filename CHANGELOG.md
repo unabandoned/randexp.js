@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.5.5](https://github.com/unabandoned/randexp.js/compare/randexp-v0.5.4...randexp-v0.5.5) (2026-08-11)
+
+
+### Miscellaneous Chores
+
+* release randexp 0.5.5 ([ea09a62](https://github.com/unabandoned/randexp.js/commit/ea09a626df4932af330f140a6aa60090bc94ca5c))
+
 ## [0.5.4](https://github.com/unabandoned/randexp.js/compare/randexp-v0.5.3...randexp-v0.5.4) (2026-08-11)
 
 
