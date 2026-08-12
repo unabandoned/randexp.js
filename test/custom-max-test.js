@@ -1,3 +1,4 @@
+const { describe, it, after } = require('node:test');
 const assert  = require('assert');
 const RandExp = require('..');
 
