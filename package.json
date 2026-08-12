@@ -31,7 +31,6 @@
     "lib": "./lib"
   },
   "dependencies": {
-    "drange": "^2.0.1",
     "ret": "^0.5.0"
   },
   "devDependencies": {
