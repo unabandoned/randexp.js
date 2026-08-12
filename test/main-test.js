@@ -1,3 +1,4 @@
+const { describe, it } = require('node:test');
 const tests   = require('./tests.js');
 const assert  = require('assert');
 const RandExp = require('..');

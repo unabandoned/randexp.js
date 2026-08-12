@@ -24,8 +24,7 @@
     "types/index.d.ts"
   ],
   "scripts": {
-    "build": "gulp build",
-    "test": "mocha test/*-test.js",
+    "test": "node --test test/*-test.js",
     "prepare": "git config core.hooksPath .githooks || true"
   },
   "directories": {
@@ -37,15 +36,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "21.2.1",
-    "@commitlint/config-conventional": "21.2.0",
-    "browserify": "17.0.1",
-    "gulp": "5.0.1",
-    "gulp-header": "2.0.12",
-    "gulp-insert": "0.5.0",
-    "gulp-uglify": "3.0.2",
-    "mocha": "11.8.0",
-    "vinyl-buffer": "1.0.1",
-    "vinyl-source-stream": "2.0.0"
+    "@commitlint/config-conventional": "21.2.0"
   },
   "engines": {
     "node": ">=14"
