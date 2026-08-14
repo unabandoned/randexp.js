@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.5.7](https://github.com/unabandoned/randexp.js/compare/randexp-v0.5.6...randexp-v0.5.7) (2026-08-14)
+
+
+### Bug Fixes
+
+* repoint ret at its [@unabandoned](https://github.com/unabandoned) fork ([#32](https://github.com/unabandoned/randexp.js/issues/32)) ([e913274](https://github.com/unabandoned/randexp.js/commit/e913274e51180afe873fe194cce6783f483a1a15))
+
+
+### Dependencies & maintenance
+
+* **deps:** update unabandoned/.github digest to 65e1d30 ([#31](https://github.com/unabandoned/randexp.js/issues/31)) ([b07419c](https://github.com/unabandoned/randexp.js/commit/b07419cf642bf0066a74c01c60eda13861978519))
+
 ## [0.5.6](https://github.com/unabandoned/randexp.js/compare/randexp-v0.5.5...randexp-v0.5.6) (2026-08-13)
 
 
