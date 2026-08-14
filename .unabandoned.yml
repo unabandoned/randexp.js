@@ -1,0 +1,18 @@
+schema: 1
+
+package: "@unabandoned/randexp"
+
+upstream:
+  repo: fent/randexp.js
+  reason: "unmaintained upstream — left idle while its dependency tree ages"
+
+summary: >-
+  Generates random strings that match a given regular expression.
+
+why-forked: >-
+  Abandoned upstream while carrying an outdated dependency (ret); forked
+  alongside ret so Renovate keeps the pair current for consumers.
+
+status: active
+
+tags: [regex, random, testing]
