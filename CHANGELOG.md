@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.5.8](https://github.com/unabandoned/randexp.js/compare/randexp-v0.5.7...randexp-v0.5.8) (2026-08-17)
+
+
+### Dependencies & maintenance
+
+* add .unabandoned.yml dashboard metadata ([#34](https://github.com/unabandoned/randexp.js/issues/34)) ([26599a5](https://github.com/unabandoned/randexp.js/commit/26599a5bf19a69d03cd0f276197e0b2f5724ab84))
+* **deps:** update commitlint monorepo to v21.2.2 ([#39](https://github.com/unabandoned/randexp.js/issues/39)) ([d6555c2](https://github.com/unabandoned/randexp.js/commit/d6555c25a66a198d13886cb688e769edb5016c64))
+* **deps:** update unabandoned/.github action to v1.0.1 ([#40](https://github.com/unabandoned/randexp.js/issues/40)) ([59d7f11](https://github.com/unabandoned/randexp.js/commit/59d7f11eb2e86df5dff868d916631dd8801d1d59))
+* **deps:** update unabandoned/.github digest to 88ce617 ([#35](https://github.com/unabandoned/randexp.js/issues/35)) ([7d5c602](https://github.com/unabandoned/randexp.js/commit/7d5c60259f98ec872ae7f05104a974a89f39f17a))
+* pin reusable workflows to the @unabandoned/.github v1.0.0 release ([#38](https://github.com/unabandoned/randexp.js/issues/38)) ([9109cb4](https://github.com/unabandoned/randexp.js/commit/9109cb4e1c7becad95a71e3c8ddf188cc65a4380))
+
 ## [0.5.7](https://github.com/unabandoned/randexp.js/compare/randexp-v0.5.6...randexp-v0.5.7) (2026-08-14)
 
 
