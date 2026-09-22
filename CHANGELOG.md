@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.5.9](https://github.com/unabandoned/randexp.js/compare/randexp-v0.5.8...randexp-v0.5.9) (2026-09-22)
+
+
+### Dependencies & maintenance
+
+* **deps:** update unabandoned/.github action to v1.0.4 ([#43](https://github.com/unabandoned/randexp.js/issues/43)) ([a63c3aa](https://github.com/unabandoned/randexp.js/commit/a63c3aa7bd88a81f15169a2047d54fe2aa7614db))
+* **deps:** update unabandoned/.github action to v1.0.5 ([#45](https://github.com/unabandoned/randexp.js/issues/45)) ([9265a2f](https://github.com/unabandoned/randexp.js/commit/9265a2f907ce67c3c76648e2528f0f3131c672ec))
+* **deps:** update unabandoned/.github action to v1.1.0 ([#46](https://github.com/unabandoned/randexp.js/issues/46)) ([1641c64](https://github.com/unabandoned/randexp.js/commit/1641c644c1582dbd91bcef7881992152b5c04e5d))
+
 ## [0.5.8](https://github.com/unabandoned/randexp.js/compare/randexp-v0.5.7...randexp-v0.5.8) (2026-08-28)
 
 
