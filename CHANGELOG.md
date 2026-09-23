@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.5.10](https://github.com/unabandoned/randexp.js/compare/randexp-v0.5.9...randexp-v0.5.10) (2026-09-23)
+
+
+### Dependencies & maintenance
+
+* **deps:** update commitlint monorepo to v21.2.3 ([#47](https://github.com/unabandoned/randexp.js/issues/47)) ([53dee15](https://github.com/unabandoned/randexp.js/commit/53dee1553cf2d0828432e74084a8dbde97218515))
+
 ## [0.5.9](https://github.com/unabandoned/randexp.js/compare/randexp-v0.5.8...randexp-v0.5.9) (2026-09-22)
 
 
