@@ -102,6 +102,23 @@ upstream:
     - sha: cbdef2c4
       decision: declined
       note: "dependabot bump of mocha and nyc, neither of which this fork carries"
+    - sha: d35a38ab
+      decision: declined
+      note: >-
+        adds biome with a lint.yml workflow and upstream's package-lock; this
+        fork carries no linter or lockfile, and its CI is the shared reusable workflows
+    - sha: ab8cc44c
+      decision: declined
+      note: >-
+        biome formatting of src/randexp.ts and the TS tests, which this fork
+        does not have (see c45c6b8c); compared with whitespace ignored, it only
+        changes quotes, let to const and braces around case blocks
+    - sha: e2abaa40
+      decision: ported
+      note: >-
+        the engines part is ported: engines goes from >=14 to >=20, the oldest
+        Node CI tests here ([20, 22, 24]); the node: protocol imports and biome
+        suppressions are in src/ and test/*.ts, which this fork does not have
 
 summary: >-
   Generates random strings that match a given regular expression.
