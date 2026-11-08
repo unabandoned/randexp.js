@@ -6,6 +6,103 @@ upstream:
   repo: fent/randexp.js
   reason: "unmaintained upstream — left idle while its dependency tree ages"
 
+  # Upstream commits looked at, so the drift report stops re-reporting them and
+  # a genuinely new commit stands out.
+  reviewed:
+    - sha: 6e975229
+      decision: declined
+      note: >-
+        adds a README section routing vulnerability reports to Tidelift; this
+        fork takes reports through the org's SECURITY.md, not Tidelift
+    - sha: bd8e10a7
+      decision: declined
+      note: >-
+        edits upstream's nodejs.yml, a workflow this fork does not have; our
+        CI is the shared reusable workflows on a [20, 22, 24] matrix
+    - sha: 421de6d3
+      decision: declined
+      note: >-
+        adds fent's email to the author field; contact for this package is the
+        fork (bugs and homepage point here), and the change fixes nothing
+    - sha: 01d32e73
+      decision: declined
+      note: >-
+        swaps the README's david-dm badge for a Depfu one that tracks
+        fent/randexp.js, not this fork; Renovate keeps our dependencies current
+    - sha: 4b251364
+      decision: ported
+      note: >-
+        the part that still applies is ported: build/randexp.min.js, a stale
+        0.4.6 browser bundle that is not in files and that nothing builds, is
+        deleted; the bower.json, gulpfile, gulp devDependencies and
+        package-lock it also removes are already gone here
+    - sha: f9eb8804
+      decision: declined
+      note: >-
+        adds a semantic-release workflow; releases here come from release-please
+        and the shared reusable-publish workflow
+    - sha: 1a3758c7
+      decision: declined
+      note: >-
+        swaps istanbul for nyc under mocha; this fork tests on node:test and
+        carries neither coverage tool
+    - sha: 0993cc41
+      decision: ported
+      note: >-
+        String.fromCodePoint in place of fromCharCode for SET and CHAR tokens,
+        so a range past U+FFFF yields the whole code point rather than its low
+        16 bits; applied unchanged, with a regression test in custom-range-test.js
+    - sha: 0429b709
+      decision: ported
+      note: "adds /\\108/ to the \\XXX octal case in test/tests.js; applied unchanged"
+    - sha: 6bd5c751
+      decision: declined
+      note: "bumps actions in upstream's release.yml, a workflow this fork does not have"
+    - sha: 04a463d5
+      decision: declined
+      note: "regenerates upstream's package-lock.json; this fork carries none (.npmrc has package-lock=false)"
+    - sha: cb4231ed
+      decision: declined
+      note: >-
+        enables npm trusted publishing in upstream's release.yml; publishing
+        here goes through the shared reusable-publish workflow
+    - sha: ff4bd768
+      decision: declined
+      note: >-
+        puts upstream's release.yml on a daily schedule; releases here are cut
+        by release-please and the monthly release-cut
+    - sha: a8b72672
+      decision: declined
+      note: "edits the node matrix in upstream's nodejs.yml, a workflow this fork does not have"
+    - sha: c45c6b8c
+      decision: declined
+      note: >-
+        rewrites lib/randexp.js as src/randexp.ts built to dist/, drops types/
+        and moves the README's documented knobs from the prototype to statics;
+        compared line by line, its only behaviour change is fromCodePoint, ported
+        from 0993cc41, so it would change the published layout and fix nothing
+    - sha: 9e36cb99
+      decision: declined
+      note: "edits upstream's nodejs.yml, a workflow this fork does not have"
+    - sha: 2287d008
+      decision: declined
+      note: >-
+        replaces README badges with ones for upstream's npm package and Actions
+        workflow, which describe fent/randexp.js, not this fork
+    - sha: 08289ef1
+      decision: declined
+      note: >-
+        adds a gh-pages workflow and devDependencies to deploy upstream's demo
+        site; this fork has no demo and does not publish one
+    - sha: 01f384b6
+      decision: ported
+      note: >-
+        sets sideEffects: false in package.json so bundlers can tree-shake;
+        lib/ only defines and exports classes on load, so it holds
+    - sha: cbdef2c4
+      decision: declined
+      note: "dependabot bump of mocha and nyc, neither of which this fork carries"
+
 summary: >-
   Generates random strings that match a given regular expression.
 
