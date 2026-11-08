@@ -59,5 +59,14 @@ describe('Modify Range', () => {
         assert.ok(maxChar >= 127, 'non-ascii characters should have been generated');
       });
     });
+
+    describe('Beyond the Basic Multilingual Plane', () => {
+      it('Should generate the whole code point, not its low 16 bits', () => {
+        let re = new RandExp(/[\s\S]{10}/);
+        re.defaultRange.subtract(0, 0x10ffff);
+        re.defaultRange.add(0x1f600);
+        assert.strictEqual(re.gen(), '\u{1f600}'.repeat(10));
+      });
+    });
   });
 });
