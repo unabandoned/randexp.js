@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.5.10](https://github.com/unabandoned/randexp.js/compare/randexp-v0.5.9...randexp-v0.5.10) (2026-11-09)
+
+
+### Features
+
+* generate whole code points beyond U+FFFF, and allow tree shaking ([#60](https://github.com/unabandoned/randexp.js/issues/60)) ([0d6ce8c](https://github.com/unabandoned/randexp.js/commit/0d6ce8c5ed4180c814ff0c32c06b1d9673db3187))
+
+
+### Bug Fixes
+
+* require Node &gt;=20 in engines, the oldest version CI tests ([#62](https://github.com/unabandoned/randexp.js/issues/62)) ([76ada1d](https://github.com/unabandoned/randexp.js/commit/76ada1da387c22da2e7d79bb6548b66777989a7f))
+
 ## [0.5.9](https://github.com/unabandoned/randexp.js/compare/randexp-v0.5.8...randexp-v0.5.9) (2026-09-22)
 
 
